@@ -48,7 +48,7 @@ public final class sessionAdd_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("<html>\n");
       out.write("    <head>\n");
       out.write("        <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n");
-      out.write("        <title>JSP Page</title>\n");
+      out.write("        <title>Login Page</title>\n");
       out.write("        \n");
       out.write("        <style>\n");
       out.write("            input{\n");
@@ -111,9 +111,7 @@ session.setAttribute("name", "Roshan");
            }
         } catch (Exception e) {
           
-        }
-
-             
+        }           
         
       out.write("\n");
       out.write("    </body>\n");
