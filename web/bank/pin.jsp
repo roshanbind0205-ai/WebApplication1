@@ -3,9 +3,9 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>debid card</title>
+        <title>pin number</title>
     </head>
     <body>
-        
+        <h1><%=request.getAttribute("card")%></h1>
     </body>
 </html>
